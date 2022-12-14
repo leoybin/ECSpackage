@@ -16,7 +16,7 @@ ecs_saleOder <- function(startDate,endDate) {
   #返回结果
   return(res)
 }
-ecs_saleOder('2022-12-01','2022-12-02')
+
 
 
 #' 发货通知处理
@@ -37,7 +37,7 @@ ecs_rdnoticeshipment <- function(startDate,endDate) {
   #返回结果
   return(res)
 }
-ecs_rdnoticeshipment('2022-12-01','2022-12-02')
+
 
 
 #' 销售出库处理
@@ -58,7 +58,7 @@ ecs_rdsaledelivery <- function(startDate,endDate) {
   #返回结果
   return(res)
 }
-ecs_rdsaledelivery('2022-12-01','2022-12-02')
+
 
 #' 其他出库处理
 #'
@@ -78,7 +78,7 @@ ecs_rdotherout <- function() {
   #返回结果
   return(res)
 }
-ecs_rdotherout()
+
 
 
 #' 其他出库处理
@@ -99,7 +99,7 @@ ecs_rdreturnnotice <- function(startDate,endDate) {
   #返回结果
   return(res)
 }
-ecs_rdreturnnotice('2022-12-01','2022-12-02')
+
 
 #' 销售退货处理
 #'
@@ -119,7 +119,7 @@ ecs_rdreturnsales <- function(startDate,endDate) {
   #返回结果
   return(res)
 }
-ecs_rdreturnsales('2022-12-01','2022-12-02')
+
 
 
 #' 采购订单处理
@@ -140,7 +140,7 @@ ecs_rdpurchaseorder <- function(startDate,endDate) {
   #返回结果
   return(res)
 }
-ecs_rdpurchaseorder('2022-12-01','2022-12-02')
+
 
 #' 收料通知处理
 #'
@@ -160,7 +160,7 @@ ecs_rdreceiptnotice <- function(startDate,endDate) {
   #返回结果
   return(res)
 }
-ecs_rdreceiptnotice('2022-12-01','2022-12-02')
+
 
 #' 采购入库处理
 #'
@@ -180,7 +180,7 @@ ecs_rdpurchasestorage <- function(startDate,endDate) {
   #返回结果
   return(res)
 }
-ecs_rdpurchasestorage('2022-12-01','2022-12-02')
+
 
 
 #' 其他入库处理
@@ -199,7 +199,7 @@ ecs_rdotherInstock <- function() {
   #返回结果
   return(res)
 }
-ecs_rdotherInstock()
+
 
 
 #' 退货申请处理
@@ -220,7 +220,7 @@ ecs_rdreturnrequest <- function(startDate,endDate) {
   #返回结果
   return(res)
 }
-ecs_rdreturnrequest('2022-12-01','2022-12-02')
+
 
 
 #' 采购退料处理
@@ -241,7 +241,7 @@ ecs_rdreturnpurchase <- function(startDate,endDate) {
   #返回结果
   return(res)
 }
-ecs_rdreturnpurchase('2022-12-01','2022-12-02')
+
 
 #' 组装拆卸单处理
 #'
@@ -262,4 +262,4 @@ ecs_rdassemblydis <- function(startDate,endDate) {
   return(res)
 }
 
-ecs_rdassemblydis('2022-12-01','2022-12-02')
+
