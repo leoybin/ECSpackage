@@ -10,7 +10,7 @@
 #' ecs_saleOder()
 ecs_saleOder <- function(startDate,endDate) {
   #注册python模板
-  mdl <- tsda::import('rdSaleOrder.mainModel')
+  mdl <- tsda::import('rdsalesorder.mainModel')
   #调用python函数，将.替代为$
   res <- mdl$salesOrder(startDate =startDate ,endDate = endDate)
   #返回结果
@@ -182,25 +182,25 @@ ecs_rdpurchasestorage <- function(startDate,endDate) {
 }
 ecs_rdpurchasestorage('2022-12-01','2022-12-02')
 
+
 #' 其他入库处理
 #'
-#' @param startDate 开始日期
-#' @param endDate 结束日期
 #'
 #' @return 返回值
 #' @export
 #'
 #' @examples
 #' ecs_rdotherInstock()
-ecs_rdotherInstock <- function(startDate,endDate) {
+ecs_rdotherInstock <- function() {
   #注册python模板
-  mdl <- tsda::import('rdotherInstock.mainModel')
+  mdl <- tsda::import('rdotherinstock.mainModel')
   #调用python函数，将.替代为$
-  res <- mdl$otherInStock(startDate =startDate ,endDate = endDate)
+  res <- mdl$otherInStock()
   #返回结果
   return(res)
 }
-ecs_rdotherInstock('2022-12-01','2022-12-02')
+ecs_rdotherInstock()
+
 
 #' 退货申请处理
 #'
