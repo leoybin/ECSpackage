@@ -279,6 +279,7 @@ ecs_rdpurchasesbilling <- function(startDate,endDate) {
   #返回结果
   return(res)
 }
+ecs_rdpurchasesbilling('2022-12-01','2022-12-02')
 
   #'同步应收单数据处理
   #'
@@ -298,4 +299,4 @@ ecs_rdpurchasesbilling <- function(startDate,endDate) {
     #返回结果
     return(res)
   }
-
+  ecs_rdsalesbilling('2022-12-01','2022-12-02')
