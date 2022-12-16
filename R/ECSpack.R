@@ -70,15 +70,15 @@ ecs_rdsaledelivery('2022-12-01','2022-12-02')
 #'
 #' @examples
 #' ecs_rdotherout()
-ecs_rdotherout <- function(startDate,endDate) {
+ecs_rdotherout <- function() {
   #注册python模板
   mdl <- tsda::import('rdotherout.mainModel')
   #调用python函数，将.替代为$
-  res <- mdl$otherOut(startDate =startDate ,endDate = endDate)
+  res <- mdl$otherOut()
   #返回结果
   return(res)
 }
-ecs_rdotherout('2022-12-01','2022-12-02')
+ecs_rdotherout()
 
 
 #' 其他出库处理
