@@ -278,7 +278,7 @@ ecs_rdpurchasesbilling <- function(startDate,endDate) {
   res <- mdl$purchasesBilling(startDate =startDate ,endDate = endDate)
   #返回结果
   return(res)
-
+}
 
   #'同步应收单数据处理
   #'
