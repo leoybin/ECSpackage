@@ -16,7 +16,7 @@ ecs_saleOder <- function(startDate,endDate) {
   #返回结果
   return(res)
 }
-
+# ecs_saleOder('2023-01-09','2023-01-09')
 
 
 #' 发货通知处理
@@ -37,7 +37,7 @@ ecs_rdnoticeshipment <- function(startDate,endDate) {
   #返回结果
   return(res)
 }
-
+# ecs_rdnoticeshipment('2023-01-09','2023-01-09')
 
 #' 销售出库处理
 #'
@@ -57,7 +57,7 @@ ecs_rdsaledelivery <- function(startDate,endDate) {
   #返回结果
   return(res)
 }
-
+# ecs_rdsaledelivery('2023-01-09','2023-01-09')
 
 #' 其他出库处理
 #'
@@ -77,7 +77,7 @@ ecs_rdotherout <- function() {
   #返回结果
   return(res)
 }
-
+# ecs_rdotherout()
 
 
 #' 其他出库处理
@@ -98,6 +98,7 @@ ecs_rdreturnnotice <- function(startDate,endDate) {
   #返回结果
   return(res)
 }
+# ecs_rdreturnnotice('2023-01-09','2023-01-09')
 
 #' 销售退货处理
 #'
@@ -117,7 +118,7 @@ ecs_rdreturnsales <- function(startDate,endDate) {
   #返回结果
   return(res)
 }
-
+# ecs_rdreturnsales('2023-01-09','2023-01-09')
 
 
 #' 采购订单处理
@@ -138,7 +139,7 @@ ecs_rdpurchaseorder <- function(startDate,endDate) {
   #返回结果
   return(res)
 }
-
+# ecs_rdpurchaseorder('2023-01-09','2023-01-09')
 
 #' 收料通知处理
 #'
@@ -158,7 +159,7 @@ ecs_rdreceiptnotice <- function(startDate,endDate) {
   #返回结果
   return(res)
 }
-
+# ecs_rdreceiptnotice('2023-01-09','2023-01-09')
 
 #' 采购入库处理
 #'
@@ -178,7 +179,7 @@ ecs_rdpurchasestorage <- function(startDate,endDate) {
   #返回结果
   return(res)
 }
-
+# ecs_rdpurchasestorage('2023-01-09','2023-01-09')
 
 
 #' 其他入库处理
@@ -197,7 +198,7 @@ ecs_rdotherInstock <- function() {
   #返回结果
   return(res)
 }
-
+# ecs_rdotherInstock()
 
 
 #' 退货申请处理
@@ -218,7 +219,7 @@ ecs_rdreturnrequest <- function(startDate,endDate) {
   #返回结果
   return(res)
 }
-
+# ecs_rdreturnrequest('2023-01-09','2023-01-09')
 
 
 #' 采购退料处理
@@ -239,6 +240,8 @@ ecs_rdreturnpurchase <- function(startDate,endDate) {
   #返回结果
   return(res)
 }
+# ecs_rdreturnpurchase('2023-01-09','2023-01-09')
+
 
 #' 组装拆卸单处理
 #'
@@ -258,7 +261,7 @@ ecs_rdassemblydis <- function(startDate,endDate) {
   #返回结果
   return(res)
 }
-
+# ecs_rdassemblydis('2023-01-09','2023-01-09')
 
 #' 应付单数据处理
 #'
@@ -278,9 +281,9 @@ ecs_rdpurchasesbilling <- function(startDate,endDate) {
   #返回结果
   return(res)
 }
+# ecs_rdpurchasesbilling('2023-01-09','2023-01-09')
 
-
-  #'同步应收单数据处理
+  #'同步应收单处理
   #'
   #' @param startDate 开始日期
   #' @param endDate 结束日期
@@ -298,4 +301,4 @@ ecs_rdpurchasesbilling <- function(startDate,endDate) {
     #返回结果
     return(res)
   }
-
+  # ecs_rdsalesbilling('2023-01-09','2023-01-09')
