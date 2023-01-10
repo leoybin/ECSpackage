@@ -16,7 +16,7 @@ ecs_saleOder <- function(startDate,endDate) {
   #返回结果
   return(res)
 }
-# ecs_saleOder('2023-01-09','2023-01-09')
+# ecs_saleOder('2023-01-09','2023-01-010')
 
 
 #' 发货通知处理
